@@ -576,7 +576,7 @@ var _ = Mavo.Primitive = $.Class({
 	setValue: function (value, o = {}) {
 		this.sneak(() => {
 			if (value === undefined) {
-				value = null;
+				value = '';
 			}
 
 			var oldDatatype = this.datatype;
